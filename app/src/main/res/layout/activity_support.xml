@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.toto.testapp.SupportActivity">
+    <LinearLayout
+        android:padding="6dp"
+        android:background="#FFFF"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:id="@+id/back_button"
+            android:paddingLeft="10dp"
+            android:layout_gravity="left"
+            android:layout_weight=".1"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:background="@mipmap/ic_back"/>
+        <TextView
+
+            android:textSize="15sp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight=".9"
+            android:gravity="right|center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Support "/>
+
+        <TextView
+            android:textSize="15sp"
+            android:id="@+id/send_submit"
+            android:layout_gravity="center_vertical"
+            android:layout_weight=".9"
+            android:gravity="right|center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send "/>
+    </LinearLayout>
+    <LinearLayout
+        android:background="#efefef"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="22dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="if you face a problem please report it to us to fix it " />
+    </LinearLayout>
+
+    <EditText
+        android:background="#ffff"
+        android:padding="10dp"
+        android:hint="write your problem here"
+        android:gravity="top"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent" />
+</LinearLayout>

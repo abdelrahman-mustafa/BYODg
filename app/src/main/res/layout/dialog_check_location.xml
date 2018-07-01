@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentRight="true"
+    android:orientation="vertical"
+
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/view"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="30dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/ic_donut_large_24px"
+        android:padding="20dp" />
+<TextView
+    android:textColor="#fff"
+    android:layout_width="match_parent"
+    android:textSize="14sp"
+    android:gravity="center_horizontal"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/view"
+    android:text="Check for location"/>
+</RelativeLayout>

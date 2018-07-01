@@ -1,0 +1,80 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Account Activation Steps:"
+        android:textSize="17sp"
+        android:textColor="#4e5fae"/>
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1- Send your ID ( Front and Back Sides).\n
+2- Confirm Subscription Plans \n
+	A-For 3 Months - for Only 150 EGP
+	You can get 100 [Groom/Bride] recommendation
+	Meet 2 [Groom/Bride]\n
+	B- For 6 Months -  for Only 250 EGP
+	You can get 150 [Groom/Bride] recommendation
+	Meet 5 [Groom/Bride]\n
+	C- For 12 Months - for Only 400 EGP
+	You can get Unlimited [Groom/Bride] recommendation
+	Meet 10 [Groom/Bride]
+"
+        android:textSize="12sp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="How Can You Pay?"
+        android:textSize="17sp"
+        android:textColor="#4e5fae"/>
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1- Without have a bank account you can make deposit on CIB ATM .
+  CIB ATM بدون حساب بنكى يمكنك الايداع فى ماكينة \n
+2- Transfer using Vodafone cash or Etisalat.\n التحويل من خلال فودافون كاش او اتصالات
+\n3- Pay in cash in one of the nearest Okhtub Agent for you with extra fees 50 EGP.
+الدفع نقدى من خلال اقرب وكيل لاخطب بتكلفة تحصيل اضافية 50 جنية
+
+"
+        android:textSize="12sp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CIB Deposits Steps"
+        android:textSize="17sp"
+        android:textColor="#4e5fae"/>
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="On CIB ATM Screen left side.  CIB ATM على يسار شاشة
+
+1- Services without card خدمات بدون بطاقة \n
+2- Enter bank account number ادخال رقم الحساب
+	Account Number: 100030566992\n
+3- Enter your mobile number ادخال رقم موبايلك
+\n4- Finish the deposit process and send the deposit receipt photo.
+"
+        android:textSize="12sp"
+        android:textColor="#000000"/>
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="textOrIcons">#FFFFFF</color>
+    <color name="colorDivider">#BDBDBD</color>
+    <color name="color_primary_light">#B2EBF2</color>
+
+
+    <color name="green">#009688</color>
+
+
+    <!-- new -->
+    <color name="facebook_color">#3e60aa</color>
+    <color name="google_color">#dd4c39</color>
+    <color name="dark_pink">#eb1d63</color>
+    <color name="colorBorder">#4c4c4c</color>
+    <color name="color_error">#cc0000</color>
+    <color name="color_scr_bck">#f9f9f9</color>
+
+
+    <color name="background">#F9F9F9</color>
+    <color name="pink">#BEBEBE</color>
+    <color name="header">#E84F96</color>
+    <color name="press">#1C7CD5</color>
+</resources>
